@@ -4,10 +4,10 @@ import ProfileItem from './ProfileItem';
 const ProfileListBlock = styled.div`
  box-sizing: border-box;
  padding-bottom: 3rem;
- width: 768px;
+ width: 1080px;
  margin:  auto;
  margin-top: 2rem;
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 1080px){
     width: 100%;
     padding-left: 1rem;
     padding-rigth: 1rem;
@@ -24,10 +24,13 @@ const sampleProfile = {
 const ProfileList = () => {
     return (
     <ProfileListBlock>
-        <h2>ProfileSearch</h2>
         <ProfileItem profile={sampleProfile}/>
         <ProfileItem profile={sampleProfile}/>
         <ProfileItem profile={sampleProfile}/>
+        <ProfileItem profile={sampleProfile}/>
+        <ProfileItem profile={sampleProfile}/>
+        <ProfileItem profile={sampleProfile}/>
+        <profileItem profile={sampleProfile}/>
         <profileItem profile={sampleProfile}/>
     </ProfileListBlock>
     );

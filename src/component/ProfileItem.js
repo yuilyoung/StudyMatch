@@ -7,7 +7,8 @@ cursor: pointer;
 white-space: pre;
 text-decoration: none;
 color: inherit;
-padding-bottom: 0.25rem;
+padding: 1rem;
+float: left;
 `;
 
 const ProfileItem = (profile) => {
@@ -15,11 +16,11 @@ const ProfileItem = (profile) => {
     return (
         <ProfileBlock>
         {profileImage && (
-            <div classNmae="thumbnail">
+            <div classNmae="ImageContent">
             <image src={profileImage} alt="thumbnail" />
             </div>
-        ) }
-        <div className="contents">
+        )}
+        <div className="contents2">
             <h2>지역</h2>
             <h2>이름</h2>
             <h2>관심사</h2>
