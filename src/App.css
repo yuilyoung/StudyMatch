@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.outer-div {
+  width : 300px;
+  height : 300px;
+  float: left;
+  background-color : blue;
+  border: 10px;
+  text-align: left;
+}
+
+.contents
+{
+  width : 300px;
+  height : 300px;
+  float: left;
+  background-color : blue;
+  border: 1px;
+  text-align: left;
+}
